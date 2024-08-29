@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asian Food</title>
+
+    <!-- links -->
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" type="image/x-icon" href="./Assets/favicon.png">
+    <script src="https://kit.fontawesome.com/d916611b0c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <section>
+        <div class="navbar">
+            <div class="logo">
+                <h2>Asian</h2>
+                <h2 class="express">Food</h2>
+            </div>
+            <div class="mid-menu">
+                <a href="#"><h3>Home</h3></a>
+                <a href="#"><h3>Cart</h3></a>
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" name="search" id="" placeholder="Search">
+                <span class="vr"></span>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </section>
+    <!-- landing -->
+    <section>
+        <div>
+           <div class="bike">
+              <p>Bike Delivery</p>
+              <img src="./Assets/bike.png" alt="Bike Delivery" />
+           </div>
+        </div>   
+        <div class="both-side">
+            <div class="left-side">
+                <div class="left-side-heading">
+                    <h1>
+                     STRESS
+                    </h1>
+                    <h1 class="orange">
+                        JUST MY <br> FOOD <br> EXPRESS!
+                    </h1>
+                    <p>Asian Food brings delicious meals right to your doorstep.
+                        <br> From quick bites to full feasts, we've got your cravings covered <br> with our lightning-fast delivery service.</p>
+                </div>
+                <div class="left-side-arrow">
+                    <img src="./Assets/Dashed Arrow.webp" alt="">
+                </div>
+                <div class="left-side-buttons">
+                    <div class="order-button">
+                    <a href="#"><button class="order-now">Order Now</button></a>
+                    </div>
+                    <a href="#">
+                        <div class="order-process">
+                            <div class="circle">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <h3>Order Process</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="items">
+                    <!-- item1 -->
+                    <div class="item">
+                        <div class="item-image">
+                        <img src="./Assets/Express Burger.png" alt="">
+                        </div>
+                        <div class="item-text">
+                            <h3> Food Express Burger</h3>
+                            <p>Juicy patty & fresh toppings</p>
+                            <h4>$6.99</h4>
+                        </div>
+                    </div>
+                    <!-- item2 -->
+                    <div class="item">
+                        <div class="item-image">
+                        <img src="./Assets/Bite Combo.png" alt="">
+                        </div>
+                        <div class="item-text">
+                            <h3>Asian Food Combo</h3>
+                            <p>Burgers, fries & drinks</p>
+                            <h4>$11.99</h4>
+                        </div>
+                    </div>
+                    <!-- item3 -->
+                    <div class="item">
+                        <div class="item-image">
+                        <img src="./Assets/Express Pizza.png" alt="" id="pizza">
+                        </div>
+                        <div class="item-text">
+                            <h3>Asian Pizza</h3>
+                            <p>Loaded with savory toppings</p>
+                            <h4>$15.99</h4>
+                        </div>
+                    </div>
+                    <!-- item4 -->
+                    <div class="item">
+                        <div class="item-image">
+                        <img src="./Assets/Bite Delight.png" alt="">
+                        </div>
+                        <div class="item-text">
+                            <h3>Asian Delight</h3>
+                            <p>Rich chocolate & cream</p>
+                            <h4>$18.99</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- informations -->
+     <section>
+        <div class="parent-info">
+            <div class="info">
+                <i class="fa-solid fa-clock"></i>
+                <h3>Today 9:30am - 8:00pm</h3>
+                <p>Working time</p>
+            </div>
+            <div class="info-line"></div>
+            <div class="info">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Jhenaidha sadar, Jhenaidha</h3>
+                <p>Our location</p>
+            </div>
+            <div class="info-line"></div>
+            <div class="info" id="info-hide">
+                <i class="fa-solid fa-phone"></i>
+                <h3>+88 017 0000 0000</h3>
+                <p>Phone number</p>
+            </div>
+        </div>
+     </section>
+     <!-- products -->
+     <section>
+        <div class="product-parent">
+            <div class="popular-text">
+                <p class="orange">Product</p>
+                <h3>Most popular items</h3>
+            </div>
+        </div>
+        <!-- always shown -->
+        <div class="popular-container">
+            <div class="popular-items">
+                <!-- item1 -->
+                <div class="popular-item">
+                    <div class="popular-item-img">
+                        <img src="./Assets/Express Gyro Wrap.png" alt="">
+                    </div>
+                    <div class="name-rating">
+                        <div class="name">
+                        <h3>Express Gyro Wrap</h3>
+                        </div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>4.8</p>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <button>Add to cart</button>
+                        <p>$18.99</p>
+                    </div>
+                </div>
+                <!-- item2 -->
+                <div class="popular-item">
+                    <div class="popular-item-img">
+                        <img src="./Assets/Enchilada Supreme.png" alt="">
+                    </div>
+                    <div class="name-rating">
+                        <div class="name">
+                        <h3>Enchilada Supreme</h3>
+                        </div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>4.9</p>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <button>Add to cart</button>
+                        <p>$28.99</p>
+                    </div>
+                </div>
+                <!-- item3 -->
+                <div class="popular-item">
+                    <div class="popular-item-img">
+                        <img src="./Assets/Crispy Green Bites.png" alt="">
+                    </div>
+                    <div class="name-rating">
+                        <div class="name">
+                        <h3>Crispy Green Bites</h3>
+                        </div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>4.2</p>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <button>Add to cart</button>
+                        <p>$12.99</p>
+                    </div>
+                </div>
+                <!-- item4 -->
+                <div class="popular-item">
+                    <div class="popular-item-img">
+                        <img src="./Assets/Pizza Express.png" alt="">
+                    </div>
+                    <div class="name-rating">
+                        <div class="name">
+                        <h3>Pizza Express</h3>
+                        </div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>5.0</p>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <button>Add to cart</button>
+                        <p>$21.99</p>
+                    </div>
+                </div>
+                <!-- item5 -->
+                <div class="popular-item">
+                    <div class="popular-item-img">
+                        <img src="./Assets/Classic Pot Pie.png" alt="">
+                    </div>
+                    <div class="name-rating">
+                        <div class="name">
+                        <h3>Classic Pot Pie</h3>
+                        </div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>4.7</p>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <button>Add to cart</button>
+                        <p>$29.99</p>
+                    </div>
+                </div>
+                <!-- item6 -->
+                <div class="popular-item">
+                    <div class="popular-item-img">
+                        <img src="./Assets/Fresh Garden Salad.png" alt="">
+                    </div>
+                    <div class="name-rating">
+                        <div class="name">
+                        <h3>Fresh Garden Salad</h3>
+                        </div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <p>4.6</p>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <button>Add to cart</button>
+                        <p>$11.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- toggle show or hide --> 
+        <div class="popular-container pop-2" id="hide-div">
+                            <div class="popular-items">
+                                <!-- item1 -->
+                                <div class="popular-item hide">
+                                    <div class="popular-item-img">
+                                        <img src="./Assets/Calamari Rings.jpeg" alt="">
+                                    </div>
+                                    <div class="name-rating">
+                                        <div class="name">
+                                        <h3>Express Calamari Rings</h3>
+                                        </div>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <p>4.5</p>
+                                        </div>
+                                    </div>
+                                    <div class="cart">
+                                        <button>Add to cart</button>
+                                        <p>$12.99</p>
+                                    </div>
+                                </div>
+                                <!-- item2 -->
+                                <div class="popular-item hide">
+                                    <div class="popular-item-img">
+                                        <img src="./Assets/Truffle Fries.jpeg" alt="">
+                                    </div>
+                                    <div class="name-rating">
+                                        <div class="name">
+                                        <h3>Truffle Fries</h3>
+                                        </div>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <p>4.8</p>
+                                        </div>
+                                    </div>
+                                    <div class="cart">
+                                        <button>Add to cart</button>
+                                        <p>$10.99</p>
+                                    </div>
+                                </div>
+                                <!-- item3 -->
+                                <div class="popular-item hide">
+                                    <div class="popular-item-img">
+                                        <img src="./Assets/Spicy Tuna Tartare.jpeg" alt="">
+                                    </div>
+                                    <div class="name-rating">
+                                        <div class="name">
+                                        <h3>Spicy Tuna Tartare</h3>
+                                        </div>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <p>4.7</p>
+                                        </div>
+                                    </div>
+                                    <div class="cart">
+                                        <button>Add to cart</button>
+                                        <p>$14.99</p>
+                                    </div>
+                                </div>
+                                <!-- item4 -->
+                                <div class="popular-item hide">
+                                    <div class="popular-item-img">
+                                        <img src="./Assets/Korean BBQ Short Ribs.jpeg" alt="">
+                                    </div>
+                                    <div class="name-rating">
+                                        <div class="name">
+                                        <h3>Korean BBQ Short Ribs</h3>
+                                        </div>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <p>4.9</p>
+                                        </div>
+                                    </div>
+                                    <div class="cart">
+                                        <button>Add to cart</button>
+                                        <p>$24.99</p>
+                                    </div>
+                                </div>
+                                <!-- item5 -->
+                                <div class="popular-item hide">
+                                    <div class="popular-item-img">
+                                        <img src="./Assets/Lobster Mac.jpeg" alt="">
+                                    </div>
+                                    <div class="name-rating">
+                                        <div class="name">
+                                        <h3>Lobster Mac and Cheese</h3>
+                                        </div>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <p>4.8</p>
+                                        </div>
+                                    </div>
+                                    <div class="cart">
+                                        <button>Add to cart</button>
+                                        <p>$28.99</p>
+                                    </div>
+                                </div>
+                                <!-- item6 -->
+                                <div class="popular-item hide">
+                                    <div class="popular-item-img">
+                                        <img src="./Assets/Garlic Bread with Cheese.jpeg" alt="">
+                                    </div>
+                                    <div class="name-rating">
+                                        <div class="name">
+                                        <h3>Garlic Bread with Cheese</h3>
+                                        </div>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <p>4.8</p>
+                                        </div>
+                                    </div>
+                                    <div class="cart">
+                                        <button>Add to cart</button>
+                                        <p>$6.99</p>
+                                    </div>
+                                </div>
+                            </div>
+        </div>
+        <!-- show more button -->
+        <div class="see-more-container">
+            <div class="see-more" id="hide-btn">
+                <button>See more products</button>
+                <i class="fa-regular fa-square-caret-down"></i>
+            </div>
+        </div>
+
+     </section>
+     <!-- services -->
+     <section>
+        <div class="services-container">
+            <div class="upper-text">
+                <div class="popular-text">
+                    <p class="orange">Services</p>
+                    <h3>Why Choose Our Favorite Food</h3>
+                </div>
+            </div>
+            <div class="cards">
+                <!-- card1 -->
+                <div class="card">
+                    <i class="fa-solid fa-burger"></i>
+                    <h3>Delicious Food</h3>
+                    <p>Experience the finest <br> flavors from around the world.</p>
+                </div>
+                <!-- card2 -->
+                <div class="card">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <h3>Healthy Eating</h3>
+                    <p>Nourish your body with <br> wholesome, nutritious meals.</p>
+                </div>
+                <!-- card3 -->
+                <div class="card">
+                    <i class="fa-solid fa-truck"></i>
+                    <h3>Fast Delivery</h3>
+                    <p>Enjoy your food delivered <br> right to your doorstep in record time.</p>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- Testimonials -->
+     <section>
+        <div class="testimonials-container">
+            <div class="upper-text">
+                <div class="popular-text">
+                    <p class="orange">Testimonials</p>
+                    <h3>Our Happy Client Says</h3>
+                </div>
+            </div>
+            <div class="testimonial-subcontainer">
+                <div class="testimonial">
+                    <div class="left-testimonial">
+                        <div class="icons">
+                            <i class="fa-solid fa-circle-arrow-left"></i>
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                        </div>
+                        <div class="profile">
+                            <img src="./Assets/profile.png" alt="">
+                            <h3>Willians Jhon</h3>
+                            <p>CEO & Co-Founder</p>
+                            <p>"I've been using Asian Food for the past six months, and it's completely revolutionized my lunchtime routine. The ability to customize my orders and have them delivered right to my desk is incredibly convenient. I've noticed a significant improvement in my energy levels and productivity since I started using Bite Express. I highly recommend it to anyone looking for a quick, healthy, and delicious meal option."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-testimonial">
+                    <img src="./Assets/testimonial.png" alt="">
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- newsletter -->
+     <section>
+        <div class="newsletter-container">
+            <div class="newsletter">
+                <div class="newsletter-left">
+                    <img src="./Assets/newsletter.png" alt="">
+                </div>
+                <div class="newsletter-right">
+                    <div class="newsletter-info">
+                        <h3>Subcribe To Our Newsletter</h3>
+                        <p>Join the Asian Food community and be the first to know about new menu items, <br> exclusive discounts, and special promotions. Stay updated on the <br> latest foodie trends and discover your next favorite meal.
+                        </p>
+                    </div>
+                    <div class="newsletter-subscription">
+                        <div class="input-and-button">
+                            <form action="" onsubmit="getContact(event)" method="get">
+                                    <input type="email" name="email" class="input" id="email" placeholder="Type your email..." >
+                                <div class="button">
+                                    <button type="submit">Subscribe</button>
+                                </div>
+                                <div id="success-container"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- footer -->
+     <section>
+        <div class="footer-container">
+            <div class="left-side">
+                <div class="logo">
+                    <h2 class="express" id="logo">Asian</h2>
+                    <h2 class="express" id="logo"> Food Express</h2>
+                </div>
+                <p>Craving delicious food delivered to your door?
+                <br>Asian Food is your go-to for fresh, fast, and flavorful meals.</p>
+                <div class="social-media">
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a target="_blank" href="https://www.x.com">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="middle-left-side">
+                <h3>Opening Restaurant</h3>
+                <p>Sat-Wed: 9:00 AM - 10:00 PM <br>
+                    Thursday: 9:00 AM - 11:00 PM <br>
+                    Friday: 9:00 AM - 8:00 PM</p>
+            </div>
+            <div class="middle-right-side">
+                <h3>User Link</h3>
+                <div class="footer-link">
+                    <a href="#"><p>Home</p></a>
+                    <a href="#"><p>About</p></a>
+                    <a href="#"><p>Menu</p></a>
+                    <a href="#"><p>Services</p></a>
+                    <a href="#"><p>Contact</p></a>
+                </div>
+            </div>
+            <div class="footer-right-side">
+                <h3>Contact us</h3>
+                    <p>+88 017 0000 0000 <br> 
+                        +88 018 0000 0000</p>
+            </div>
+        </div>
+     </section>
+</body>
+</html>
